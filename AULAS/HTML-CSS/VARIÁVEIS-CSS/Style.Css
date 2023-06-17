@@ -1,0 +1,14 @@
+:root {
+    --tamanhoFontePrincipal: 5em;
+    --varCorTextoPrincipal: #8beeffe0;
+}
+
+h1 {
+    color: var(--varCorTextoPrincipal);
+    font-size: var(--tamanhoFontePrincipal);
+}
+
+h2 {
+    color: var(--varCorTextoPrincipal);
+    font-size: var(--tamanhoFontePrincipal);
+}

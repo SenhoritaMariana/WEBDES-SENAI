@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #8d4083;
+}
+
+.cabecalho {
+    height: 100px;
+    width: 100%;
+    background-color: #f3b4d9;
+}
+
+.principal {
+    height: 500px;
+    width: 400px;
+    background-color: #f8e8e8;
+    margin: 200px auto;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+    background-color: #5c1d53;
+}
+
+.container {
+    display: block;
+    margin-left: 25%;
+    height: 33%;
+}
+
+label, input {
+    display: block;
+    margin: 28px;
+}

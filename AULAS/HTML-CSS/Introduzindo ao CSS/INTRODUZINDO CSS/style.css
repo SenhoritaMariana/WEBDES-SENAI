@@ -1,0 +1,33 @@
+body { 
+    height: 100;
+    width: 100;
+    background-color: #bf1ef0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+
+
+    height: 100px;
+    width: 600px;
+    font-size: 2.5em;
+    background-color: #fd7f0a;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border: solid 3px 
+}
+p {
+    
+    color: #00ffff;
+}
+
+.destaque {
+    font-size: 20px;
+    color: #2790e6;
+}
+
+#cabecalho {
+    font-size: 3em;
+    color: aliceblue;
+}

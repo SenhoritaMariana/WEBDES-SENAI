@@ -1,0 +1,24 @@
+.sla_01 {
+    height: 200px;
+    width: 200px;
+    background-color: #a52a2a;
+    transition: 2s;
+    margin: 200px 200px;
+}
+
+.sla_01:hover {
+    background-color: #eca335;
+    box-shadow: 5px 5px 5px blue;
+    border-radius: 20px 50px 20px 50px;
+}
+
+.sla_02 {
+    height: 200px;
+    width: 200px;
+    background-color: #f3f39b;
+    margin: 200px 200px;
+}
+
+.sla_02:active {
+    background-color: #f8069b;
+}

@@ -1,0 +1,7 @@
+:root {
+    --varTamanhoFontePrincipal: #a52a2a
+}
+
+h1 {
+    color: var(--varTamanhoFontePrincipal);
+}

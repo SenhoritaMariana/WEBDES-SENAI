@@ -1,0 +1,18 @@
+:root {
+    --varTamanhoDeicone: #00ffff;
+}
+
+h1 {
+    color: var(--varTamanhoDeicone);
+}
+.ícone_01 {
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+}
+
+.ícone-redes-sociais {
+    width: 200px;
+    height: 200px;
+    display: block;
+}

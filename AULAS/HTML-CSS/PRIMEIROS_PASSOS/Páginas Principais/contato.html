@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam</title>
+</head>
+<body>
+    <header style="background-color: #4f09a0;">
+        <img src="IMG/logo.png" alt="Logo da Steam" style="height: 200px; width: 200px;">
+        <h1>Steam</h1>
+        <nav>
+            <ul>
+                <a href="home.html"><li>HOME</li></a>
+                <a href="produto.html"><li>PRODUTOS</li></a>
+                <a href="contato.html"><li>CONTATO</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudoPrincipal">
+        <form>
+        <div class="containerForm" id="campoNome">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div class="containerForm" id="campoSobrenome">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+        <div class="containerForm" id="CampoDataNas">
+            <label for="CampoDataNas">Data de Nascimento</label>
+            <input type="date" name="dataNas" id="DataNas">
+        </div>
+        <div class="containerForm" id="campoCPF">
+            <label for="CPF">CPF</label>
+            <input type="CPF" name="CPF" id="CPF" placeholder="999.999.999-99">
+        </div>
+        <div class="containerForm" id="campoTelefone">
+            <label for="Telefone">Telefone</label>
+            <input type="number" name="telefone" id="telefone" placeholder="(XX)XXXXX-XXXX">
+        </div>
+        <div class="containerForm" id="campoEmail">
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" required>
+        </div>
+        <div class="containerForm" id="campoSenha">
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha" id="Senha">
+        </div>
+        <div>
+            <button type="submit" class="botão" id="botaoEnviar">Enviar</button>
+        </div>
+        <div>
+            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="" checked>
+            <input type="file" name="" id="">
+            <input type="color" name="" id="">
+            <input type="radio" name="radios" id="">
+            <input type="radio" name="radios" id="">
+            <input type="radio" name="radios" id="">
+        </div>
+        <div>
+            <select name="Selecione" id="Selecione">
+                <option value="selecione">Selecione</option>
+                <option value="skyline">Skyline</option>
+                <option value="fusca">Fusca</option>
+                <option value="lancer">Lancer</option>
+                <option value="civic">Civic</option>
+                <option value="uno">Uno com Escada</option>
+            </select>
+        </div>
+        <div>
+            <label for="Comentário">Comentário</label>
+            <textarea name="Comentário" id="Comentário" cols="40" rows="15" 
+            maxlength="20"- style="max-width: 500px; min-width: 400px; max-height: 300px; min-height: 100px;
+            "></textarea>
+        </div>
+        </form>
+        <table>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+              </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td>Mariana</td>
+                <td>16</td>
+                <td>São Bernardo</td>
+               </tr>
+               <tr>
+                 <td>Tales</td>
+                 <td>26</td>
+                 <td>Diadema</td>
+               </tr>
+               <tr>
+                <td>Marcos</td>
+                <td>39</td>
+                <td>Santo André</td>
+               </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Aqui estão os dados</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </main>
+
+    <footer style="background-color: #6b97c0;"> 
+        <div>
+            <ul>
+                <a href="https://www.instagram.com/steam_games_official/"></a><li>Instagram</li>
+                <a href="https://www.facebook.com/Steam/"></a><li>Facebook</li>
+                <a href="https://twitter.com/Steam"></a><li>Twitter</li>
+            </ul>
+        </div>
+        <p>Meu rodapé &#169</p>
+    </footer>
+</body>
+</html>

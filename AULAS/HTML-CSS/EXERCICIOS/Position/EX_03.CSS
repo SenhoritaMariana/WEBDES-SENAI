@@ -1,0 +1,25 @@
+.div_01 {
+    height: 200px;
+    width: 200px;
+    background-color: #2578d8;
+    position: relative;
+}
+
+.div_02 {
+    height: 50px;
+    width: 50px;
+    background-color: #cf5d1b;
+    position: absolute;
+    top: 50px;
+    bottom: 300px;
+    z-index: 1;
+}
+
+.div_03 {
+    height: 100px;
+    width: 100px;
+    background-color: #e4104f;
+    position: absolute;
+    top: 50px;
+    bottom: 300px;
+}

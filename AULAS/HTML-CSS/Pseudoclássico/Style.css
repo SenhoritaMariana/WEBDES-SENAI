@@ -1,0 +1,55 @@
+.box_01 {
+    height: 200px;
+    width: 200px;
+    background-color: #5082c4;
+    transition: 2s;
+    margin: 200px 200px;
+}
+.box_01:hover {
+    transform: translateX(50px); 
+    background-color: #e90e86;
+    box-shadow: 5px 5px 5px #1b1b1a;
+    border-radius: 20px 50px 20px 50px;
+}
+
+.box_02 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin: 200px 200px;
+}
+
+.box_02:active {
+    background-color: #2d4c75;
+}
+
+.box_03 {
+    height: 200px;
+    width: 200px;
+    background-color: #1f68ac;
+    margin: 200px 200px;
+}
+
+input:focus {
+    background-color: #3a10f5;
+}
+
+.box_04 {
+    height: 200px;
+    width: 200px;
+    font-size: 1.7em;
+    background-color: #0ee962;
+    margin: 200px 200px;
+}
+
+.box_04 li:first-child {
+    color: #ece8f8;
+}
+
+.box_04 li:last-child {
+    color: #e67f1e;
+}
+
+.box_04 li:nth-child(5) {
+    color: #f70606;
+}

@@ -1,0 +1,17 @@
+:root {
+    --varAlturaDeSecao: #205555;
+}
+
+h1 {
+    color: var(--varAlturaDeSecao);
+}
+.secao_01 {
+    height: 200px;
+    width: 200px;
+    background-color: #0000ff;
+}
+.secao_01:seção {
+    height: 200px;
+    width: 200px;
+    background-color: #7fffd4;
+}

@@ -1,0 +1,86 @@
+body,
+html {
+    background-color: rgb(240, 248, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container1 {
+    background-color: #11ecec;
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "btn1 btn2 btn3"
+    "btn4 btn5 btn6"
+    "btn7 btn8 btn9"
+    ;
+}
+
+.btn1 {
+    height: 200px;
+    width: 200px;
+    background-color: #3e5270;
+    grid-area: caixa1;
+}
+
+.btn2 {
+    height: 200px;
+    width: 200px;
+    background-color: #3a79d6;
+    grid-area: caixa2;
+}
+
+.btn3 {
+    height: 200px;
+    width: 200px;
+    background-color: #0266fc;
+    grid-area: caixa3;
+}
+
+.btn4 {
+    height: 200px;
+    width: 200px;
+    background-color: #89b3f3;
+    grid-area: caixa4;
+}
+
+.btn5 {
+    height: 200px;
+    width: 200px;
+    background-color: #23395a;
+    grid-area: caixa5;
+}
+
+.btn6 {
+    height: 200px;
+    width: 200px;
+    background-color: #051a3a;
+    grid-area: caixa6;
+}
+
+.btn7 {
+    height: 200px;
+    width: 200px;
+    background-color: #7791b8;
+    grid-area: caixa7;
+}
+
+.btn8 {
+    height: 200px;
+    width: 200px;
+    background-color: #0b2650;
+    grid-area: caixa8;
+}
+
+.btn9 {
+    height: 200px;
+    width: 200px;
+    background-color: #307ae9;
+    grid-area: caixa9;
+}

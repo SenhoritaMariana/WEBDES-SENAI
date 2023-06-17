@@ -1,0 +1,7 @@
+:root {
+    --varCorTextoPrincipal: #1645df;
+}
+
+h1 {
+    color: var(--varCorTextoPrincipal);
+}

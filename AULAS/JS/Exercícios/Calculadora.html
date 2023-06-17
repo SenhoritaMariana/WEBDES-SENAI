@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+</head>
+<body id="body_1" class="theme__1">
+    <main>
+        <div id="tema" class="container__superior container">
+            <h1>calc</h1>
+            <h2>THEME</h2>
+            <label for="disp" class="switch">
+                <div class="theme_number">
+                    <h3>1</h3>
+                    <h3>2</h3>
+                </div>
+                <input class="theme" type="checkbox" name="theme" id="theme" value="0">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="container container__central">
+            <input type="text" name="disp" id="disp" class="display" disabled>
+        </div>
+        <div id="botoes" class="container__inferior container">
+            <div class="box box__1"> <button class="botao botao__1"> 7 </button> </div>
+            <div class="box box__2"> <button class="botao botao__2"> 8 </button> </div>
+            <div class="box box__3"> <button class="botao botao__3"> 9 </button> </div>
+            <div class="box box__4"> <button class="botao botao__4" onclick="backspace()"> DEL </button> </div>
+
+            <div class="box box__5"> <button class="botao botao__5"> 4 </button> </div>
+            <div class="box box__6"> <button class="botao botao__6"> 5 </button> </div>
+            <div class="box box__7"> <button class="botao botao__7"> 6 </button> </div>
+            <div class="box box__8"> <button class="botao botao__8"> + </button> </div>
+            
+            <div class="box box__9"> <button class="botao botao__9"> 1 </button> </div>
+            <div class="box box__10"> <button class="botao botao__10"> 2 </button> </div>
+            <div class="box box__11"> <button class="botao botao__11"> 3 </button> </div>
+            <div class="box box__12"> <button class="botao botao__12"> - </button> </div>
+
+            <div class="box box__13"> <button class="botao botao__13"> . </button> </div>
+            <div class="box box__14"> <button class="botao botao__14"> 0 </button> </div>
+            <div class="box box__15"> <button class="botao botao__15 keys"> x </button> </div>
+            <div class="box box__16"> <button class="botao botao__16 keys"> / </button> </div>
+
+            <div class="box box__17"> <button class="botao botao__17"> RESET </button> </div>
+            <div class="box box__18"> <button class="botao result"> = </button></div>
+        </div>
+    </main>
+    
+    <script src="./calc.js"></script>
+</html>

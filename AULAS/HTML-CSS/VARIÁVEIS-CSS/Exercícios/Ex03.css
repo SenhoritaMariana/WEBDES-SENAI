@@ -1,0 +1,20 @@
+:root {
+    --varLarguraBordaDaCaixa: #000fff
+}
+
+h1 {
+    color: var(--varLarguraBordaDaCaixa);
+}
+
+.caixinha_01 {
+    height: 200px;
+    width: 200px;
+    background-color: #3ffd8eb0;
+    transition: 2s;
+    margin: 200px 200px;
+    box-shadow: 200px;
+}
+.caixinha_01:caixinha {
+    background-color: #2082ddb0;
+    border-radius: 20px 50px 20px 50px;
+}

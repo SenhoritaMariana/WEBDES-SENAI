@@ -1,0 +1,120 @@
+body,
+html {
+    background-color: #f07373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 {
+    background-color: #8a2be2;
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: #00ffff;
+}
+
+.container2 {
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    background-color: #16e09d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box2 {
+    height: 200%;
+    width: 100%;
+    background-color: #075ad8;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+.container3 {
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    background-color: #7fffd4;
+    display: grid;
+    grid-template-areas: 
+    "caixa1 caixa2 caixa3"
+    "caixa4 caixa5 caixa6"
+    "caixa7 caixa8 caixa9"
+    ;
+}
+
+.b1 {
+    height: 200px;
+    width: 200px;
+    background-color: #3e5270;
+    grid-area: caixa1;
+}
+
+.b2 {
+    height: 200px;
+    width: 200px;
+    background-color: #11eb36;
+    grid-area: caixa2;
+}
+
+.b3 {
+    height: 200px;
+    width: 200px;
+    background-color: #ffd9a8;
+    grid-area: caixa3;
+}
+
+.b4 {
+    height: 200px;
+    width: 200px;
+    background-color: #ec0de1;
+    grid-area: caixa4;
+}
+
+.b5 {
+    height: 200px;
+    width: 200px;
+    background-color: #e22980;
+    grid-area: caixa5;
+}
+
+.b6 {
+    height: 200px;
+    width: 200px;
+    background-color: #7613e7;
+    grid-area: caixa6;
+}
+
+.b7 {
+    height: 200px;
+    width: 200px;
+    background-color: #0f1c30;
+    grid-area: caixa7;
+}
+
+.b8 {
+    height: 200px;
+    width: 200px;
+    background-color: #44944f;
+    grid-area: caixa8;
+}
+
+.b9 {
+    height: 200px;
+    width: 200px;
+    background-color: #e6d925;
+    grid-area: caixa9;
+}

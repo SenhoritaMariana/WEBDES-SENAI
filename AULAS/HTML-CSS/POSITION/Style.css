@@ -1,0 +1,28 @@
+body {
+    height: 2000px;
+}
+
+.box_1 {
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 500px;
+    background-color: #a52a2a;
+    position: absolute;
+}
+
+.box_11 {
+    height: 100px;
+    width: 100px;
+    background-color: #fa9b20;
+    position: absolute;
+    top: 50px;
+}
+
+.box_111 {
+    height: 50px;
+    width: 50px;
+    background-color: #be41b4;
+    position: fixed;
+    top: 50px;
+}
