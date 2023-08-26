@@ -1,0 +1,1 @@
+let originalArray = [Estojo, Caneta, Borracha, Apontador]

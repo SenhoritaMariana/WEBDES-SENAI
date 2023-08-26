@@ -24,3 +24,22 @@ if (divisores === 2) {
 } else {
   console.log(numero + " não é um número primo.");
 }
+
+//Array com cícylos que utiliza o forEach
+let numeros = [5, 9, 4, 7, 1]
+
+let círculos = []
+
+numeros.forEach(function (numero, indice, arrayCompleto) {
+
+  const círculo = Math.pow(numero, 5)
+  círculos.push(círculo)
+
+  console.log(`Elemento: ${numero}`);
+  console.log(`Índice: ${indice}`);
+  console.log(`Primeiro Array: ${arrayCompleto}`);
+  console.log(`Círculo: ${círculo} \n\n`); 
+})
+
+console.log('Primeiro Array:', numeros);
+console.log('Array com círculos:', círculosj);

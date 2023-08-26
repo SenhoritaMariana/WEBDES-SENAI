@@ -1,6 +1,6 @@
 let TimeFutebol = "Palmeiras";
 
-console.log(timeFutebol.length);
+console.log(TimeFutebol.length);
 
 let cidade = "sãO bERnaRDO dO CaMPo";
 
@@ -12,7 +12,7 @@ let pais = "Angola";
 console.log(pais.charAt(3));
 console.log(pais.indexOf("a"));
 
-let frase = "Olha se você não me ama"
+let frase1 = "Olha se você não me ama"
 
 console.log(frase1.slice(3, 8));
 console.log(frase1.substring(0, -1));
@@ -38,4 +38,3 @@ let nome = "   Mariana Andrade    "
 nome = nome.trim()
 
 console.log(nome);
-

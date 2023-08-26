@@ -1,0 +1,13 @@
+.MisterContainer_01 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(238, 164, 164);
+    display: center;
+}
+
+.MisterContainer_02 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(39, 13, 63);
+    display: inline;
+}
